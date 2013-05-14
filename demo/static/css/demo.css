@@ -1,0 +1,12 @@
+.plain-list { 
+     padding:0; 
+     margin:0; 
+} 
+
+.plain-list li { 
+     list-style-type:none; 
+} 
+
+.error {
+    color: red;
+}
