@@ -27,5 +27,4 @@ class ItemToBuySerializer(serializers.ModelSerializer):
 
     class Meta:
         model = ItemToBuy
-        ordering = ['category', 'name']
         fields = ('id', 'category', 'name', 'important', 'created_on')
